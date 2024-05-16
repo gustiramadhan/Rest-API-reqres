@@ -38,6 +38,7 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-WS.verifyElementPropertyValue(response, 'data[0].email', &quot;michael.lawson@reqres.in&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'data[0].email', &quot;michael.lawson@reqres.in&quot;)
+WS.verifyElementPropertyValue(response, 'page', 1)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

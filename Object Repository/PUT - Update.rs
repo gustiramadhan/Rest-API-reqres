@@ -50,6 +50,7 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+WS.verifyElementPropertyValue(response, 'name', &quot;Gusti Ramadhan&quot;)
 WS.verifyElementPropertyValue(response, 'name', &quot;Gusti Ramadhan&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
